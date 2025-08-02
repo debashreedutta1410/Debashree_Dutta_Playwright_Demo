@@ -1,0 +1,22 @@
+{
+  "name": "PlaywrightAutomation",
+  "description": "Playwright E2E Tests with Allure Reporting",
+  "links": [
+    {
+      "name": "Repository",
+      "url": "https://github.com/your-repo/PlaywrightAutomation"
+    }
+  ],
+  "executors": [
+    {
+      "name": "Local",
+      "type": "local",
+      "url": "http://localhost",
+      "buildOrder": 1,
+      "buildName": "Playwright Tests",
+      "buildUrl": "http://localhost/build",
+      "reportName": "Allure Report",
+      "reportUrl": "http://localhost/report"
+    }
+  ]
+}
